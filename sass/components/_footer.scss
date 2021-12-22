@@ -1,0 +1,181 @@
+/***------------------ Футер с ссылкой на  контактные данные ------------***/
+.footer {
+  padding: 60px 0;
+  margin: 0 auto;
+  
+  background-color: $footer-backroung-color;
+@media screen and (max-width:1199px){
+  text-align: center;
+}
+}
+
+/* Адрес */
+.footer__text {
+  padding: 0;
+  margin: 0 0 9px 0;
+
+  color: $portfolio-btn-accent-color;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Почта и телефон */
+.footer__item:not(:last-child){
+  margin-bottom: 9px;
+}
+
+.footer__contacts {
+  color:$footer-link-color;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  transition-property: color;
+  transition-duration: $tr-duration;
+  transition-timing-function: $timing-function;
+
+  &:hover,
+  &:focus {
+  color: $accent-color;
+}
+}
+
+
+
+/* ******** SVG************ */
+
+
+   
+@media screen and (min-width:1200px){
+.footer  .container{
+  display: flex;
+  align-items: baseline;}
+}
+
+
+.footer__tablet{
+    @media  screen and (max-width:767px) {
+      margin-bottom: 60px;
+    }
+
+    @media  screen and (min-width:768px) {
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+    }
+
+    @media screen and (min-width:1200px) {
+    text-align: center;
+    margin-bottom: 0;
+    margin-right: auto;
+    }
+}
+
+.footer__navigation{
+@media screen and (max-width:767px){
+  margin-bottom: 60px;}
+@media screen and (min-width:768px){
+  margin-right: 0px;}
+@media screen and (min-width:1200px){
+  margin-right: 70px;}
+
+}
+
+
+.footer__social-text{
+margin-bottom: 20px;
+font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: $current-white-color;
+}
+/* После ПРИСОЕДИНЯЙТЕСЬ */
+
+
+.footer__form{
+@media screen and (min-width:1200px){
+ margin-left: 93px;}
+
+
+}
+
+.foter__list{
+  display: flex;
+  justify-content: center;
+
+
+  
+}
+
+
+
+
+.foter__social-item{
+display: flex;
+justify-content: center;
+align-items: center;
+
+width: 44px;
+height: 44px;
+border-radius: 50%;
+
+color: $current-white-color;
+background-color: rgba(255, 255, 255, 0.1);
+
+transition-property: background-color;
+transition-duration: $tr-duration;
+transition-timing-function: $timing-function;
+
+
+&:hover, &:focus{
+background-color: $accent-color;
+}
+
+}
+
+
+.foter__social-list:not(:last-child){
+  margin-right: 10px;}
+
+.social-icon {
+width: 20px;
+height: 20px;
+fill: currentColor;
+}
+/* Подпишитесь на рассылку */
+
+
+.footer__e-mail-inpup{
+
+  @media screen and (min-width: 768px){
+    width: 450px;
+    margin-right: 12px;
+  }
+  
+  @media screen and (min-width: 1200px){
+    width: 358px;
+    margin-right: 12px;
+  }
+
+  margin-bottom: 20px;
+  width: 100%;
+  
+  height: 50px;
+  
+
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.03em;
+
+  background-color: $footer-backroung-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+  
+}
+
