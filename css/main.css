@@ -260,6 +260,7 @@ body {
 }
 
 .logo {
+  margin-bottom: 20px;
   display: block;
   font-family: Raleway;
   color: #2196f3;
@@ -281,12 +282,6 @@ body {
 
 .logo--white {
   color: #ffffff;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .logo {
-    margin-bottom: 20px;
-  }
 }
 
 .wrap {
