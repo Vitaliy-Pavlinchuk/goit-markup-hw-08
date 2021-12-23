@@ -260,7 +260,6 @@ body {
 }
 
 .logo {
-  margin-bottom: 20px;
   display: block;
   font-family: Raleway;
   color: #2196f3;
@@ -268,6 +267,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 
 .logo--position {
