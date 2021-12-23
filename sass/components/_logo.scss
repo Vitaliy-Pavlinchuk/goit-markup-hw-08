@@ -1,6 +1,9 @@
 //Логотип
 
 .logo{
+    margin-bottom: 20px;
+
+
     display: block;
     font-family: Raleway;
     color: $accent-color;
@@ -20,9 +23,9 @@
 &--white{
     color: $current-white-color;}
 
-    @media screen and (min-width: 768px) and (max-width:1199px) {
+    
     margin-bottom: 20px;
-}   
+
     
     
 
